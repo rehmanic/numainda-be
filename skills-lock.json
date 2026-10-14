@@ -54,6 +54,96 @@
       "sourceType": "github",
       "skillPath": "skills/engineering/research/SKILL.md",
       "computedHash": "c8c1cba327a6f824b554cd978079a3dadd7406d73174f8fb9bfef58824691970"
+    },
+    "telnyx-numbers-compliance-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-numbers-compliance-javascript/SKILL.md",
+      "computedHash": "b90526ac9004c00209583dd116a9eee444a27713ecd0f2a547dea47d2b1fcb36"
+    },
+    "telnyx-numbers-config-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-numbers-config-javascript/SKILL.md",
+      "computedHash": "e910bf4999ab55625709714fa64f8e699afa110c74e990b9f4d12fba0c87726a"
+    },
+    "telnyx-numbers-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-numbers-javascript/SKILL.md",
+      "computedHash": "1fbb3a8fdbbf011bf8433a838329132406ae5893cfdcd112dba9c30d50697010"
+    },
+    "telnyx-numbers-services-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-numbers-services-javascript/SKILL.md",
+      "computedHash": "281f21d7aa3519c0cd7401eb2f124288331cdbcebcbbc578e2464a143fb74061"
+    },
+    "telnyx-sip-curl": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-sip-curl/SKILL.md",
+      "computedHash": "e92ae31d51e48ff0df3e635499679e3b8f843349de11c36039b1579e1a9aa04f"
+    },
+    "telnyx-sip-integrations-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-sip-integrations-javascript/SKILL.md",
+      "computedHash": "ed7165addb347ef954874b00bd3e3c473b460a9cd5a1a12f89543db9a5ecb64b"
+    },
+    "telnyx-sip-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-sip-javascript/SKILL.md",
+      "computedHash": "20b353a7f7bf0eca0e335503ed3dfb089d45d111250c76e2c8411bc9fb623fe4"
+    },
+    "telnyx-voice-advanced-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-advanced-javascript/SKILL.md",
+      "computedHash": "935950355357dc33fe410e9867a3f9b786a7ae8b8febed82bb3c5270c92dd9eb"
+    },
+    "telnyx-voice-conferencing-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-conferencing-javascript/SKILL.md",
+      "computedHash": "76842b903dfb43c448284cf36753976370eca184f1f846e280809b5549b3bb2b"
+    },
+    "telnyx-voice-gather-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-gather-javascript/SKILL.md",
+      "computedHash": "16bc5d7e43c7f40cf3193f902cc98df463fddae956bd28d113f0ed2100f887dc"
+    },
+    "telnyx-voice-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-javascript/SKILL.md",
+      "computedHash": "8b192ac63ee9e71756ac5675089c1ce664b5cb38f0cbcd8e8e996f0db2666460"
+    },
+    "telnyx-voice-media-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-media-javascript/SKILL.md",
+      "computedHash": "2c6ade6c0c9d8645979217e786eea261d6fa2650dce62bbf18eb38b8ccb96dab"
+    },
+    "telnyx-voice-streaming-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-voice-streaming-javascript/SKILL.md",
+      "computedHash": "5d0e8b6bf7952d1a976e45171f4dfc88ebc657b474c27c91337e606374566e13"
+    },
+    "telnyx-webrtc-client-js": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-webrtc-client-js/SKILL.md",
+      "computedHash": "7134c4dfdfa3333c2305da0d7d64f81813a782a1eb894e0cbe7d0608d0c5e424"
+    },
+    "telnyx-webrtc-javascript": {
+      "source": "team-telnyx/ai",
+      "sourceType": "github",
+      "skillPath": "skills/telnyx-webrtc-javascript/SKILL.md",
+      "computedHash": "a9133a524af025a22796988f4831ceb529f0cef95ca6fd63700c0812678761a4"
     }
   }
 }
