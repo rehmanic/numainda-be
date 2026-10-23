@@ -3,12 +3,15 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule } from '@nestjs/config';
 import { TelephonyModule } from './telephony/telephony.module';
+import { AuthModule } from './auth';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
+      envFilePath: ['.env.local', '.env'],
     }),
+    AuthModule,
     TelephonyModule,
   ],
   controllers: [AppController],

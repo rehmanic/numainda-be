@@ -1,7 +1,8 @@
-import { Controller, Get, Post, Body, Headers, Inject } from '@nestjs/common';
-import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
+import { Controller, Get, Post, Body, Headers, Inject, UseGuards } from '@nestjs/common';
+import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
 import { TELEPHONY_SERVICE } from './interfaces/telephony-service.interface';
 import type { ITelephonyService, TelephonyToken } from './interfaces/telephony-service.interface';
+import { ClerkAuthGuard } from '../auth';
 
 @ApiTags('telephony')
 @Controller('telephony')
@@ -12,6 +13,8 @@ export class TelephonyController {
   ) {}
 
   @Get('token')
+  @UseGuards(ClerkAuthGuard)
+  @ApiBearerAuth()
   @ApiOperation({ summary: 'Generate WebRTC client login token for softphone' })
   @ApiResponse({ status: 200, description: 'JWT token and caller ID' })
   async getToken(): Promise<TelephonyToken> {
