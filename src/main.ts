@@ -24,7 +24,24 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const configService = app.get(ConfigService);
   const port = configService.getOrThrow<number>('PORT');
-  const mode = configService.get<string>("MODE");
+  const mode = configService.get<string>('MODE');
+
+  if (mode === 'dev') {
+    app.enableCors({
+      origin: true,
+      credentials: true,
+    });
+  } else {
+    const rawOrigins = configService.get<string>('ALLOWED_ORIGINS');
+    const allowedOrigins = rawOrigins
+      ? rawOrigins.split(',').map((origin) => origin.trim()).filter(Boolean)
+      : [];
+
+    app.enableCors({
+      origin: allowedOrigins.length > 0 ? allowedOrigins : false,
+      credentials: true,
+    });
+  }
   
   const config = new DocumentBuilder()
     .setTitle('Numainda')
